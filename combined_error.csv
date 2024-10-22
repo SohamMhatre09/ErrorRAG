@@ -1,0 +1,718 @@
+Unnamed: 0,Level,Component,EventTemplate,type
+0.0,Debug,WindowManager,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false",android
+1.0,Debug,PowerManagerService,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",android
+2.0,Debug,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=<*>,adj=<*>.0userId=<*>",android
+3.0,Verbose,WindowManager,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide,android
+4.0,Debug,TextView,visible is <*>,android
+5.0,Debug,TextView,mVisiblity.getValue is false,android
+8.0,Debug,TextView,visible is <*> gt <*>,android
+14.0,Debug,PowerManagerService,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",android
+17.0,Info,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",android
+18.0,Info,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,android
+19.0,Warning,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,android
+22.0,Info,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",android
+23.0,Info,PhoneStatusBar,cancelAutohide,android
+24.0,Info,PhoneStatusBar,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>",android
+25.0,Info,WindowManager,Destroying surface Surface(name=<*>) called by <*>,android
+28.0,Debug,PowerManagerService,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",android
+30.0,Info,WindowManager,"orientation change is complete, call stopFreezingDisplayLocked",android
+31.0,Info,WindowManager,Screen frozen for <*> due to Window{<*> u0 <*>.<*>},android
+32.0,Debug,WindowManager,startAnimation begin,android
+33.0,Debug,WindowManager,startAnimation end,android
+36.0,Info,AlarmManager,remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching,android
+37.0,Info,WindowManager,"rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED",android
+38.0,Info,WindowManager,"Application requested orientation <*>, got rotation <*> which has compatible metrics",android
+46.0,Warning,PhoneInterfaceManager,shouldBlockLocation running ...,android
+47.0,Info,PhoneInterfaceManager,shouldBlockLocation  ret:false,android
+50.0,Debug,TelephonyManager,getNeighboringCellInfo calling app is <*>,android
+67.0,Debug,PowerManagerService,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",android
+68.0,Info,DisplayPowerController,HBM brightnessIn =<*>,android
+69.0,Info,DisplayPowerController,HBM brightnessOut =<*>,android
+70.0,Debug,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",android
+73.0,Info,PhoneStatusBar,suspendAutohide,android
+74.0,Debug,WindowManager,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down true canceled false,android
+75.0,Debug,WindowManager,"interceptKeyBeforeQueueing: key <*> , result : <*>",android
+78.0,Info,PhoneStatusBar,resumeSuspendedAutohide,android
+79.0,Debug,WindowManager,interceptKeyTq keycode=<*> interactive=true keyguardActive=false policyFlags=<*> down false canceled false,android
+81.0,Verbose,AudioManager,querySoundEffectsEnabled...,android
+84.0,Debug,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",android
+89.0,Warning,ActivityManager,Bad activity token: <*>@<*>,android
+90.0,Warning,ActivityManager,<*>: <*> cannot be cast to <*>$Token,android
+102.0,Info,PanelView,"onTouchEvent::<*>, x=<*>.<*>, y=<*>.<*>",android
+103.0,Info,PanelView,schedulePeek,android
+104.0,Verbose,AudioManager,getRingtonePlayer...,android
+105.0,Debug,PhoneStatusBar,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >,android
+107.0,Info,NotificationManager,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true",android
+108.0,Info,NotificationManager,"updateLightsLocked,turn off notificationLight",android
+112.0,Info,StackScrollAlgorithm,"overlapAmount:<*>.<*>, previousNotificationEnd:<*>.<*>, newYTranslation:<*>.<*>, location:<*>, i:<*>, getTopPadding:<*>.<*>, getLocationOnScreen():<*>",android
+113.0,Info,StackScrollAlgorithm,"state.clipTopAmount:<*>, i:<*>",android
+114.0,Info,StackScrollAlgorithm,"updateClipping isOverlap:true, getTopPadding=<*>.<*>, Translation=<*>.<*>",android
+115.0,Info,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:true,android
+120.0,Info,PanelView,onExpandingStarted,android
+122.0,Info,PanelView,onTrackingStarted,android
+158.0,Info,PanelView,cancelPeek: false,android
+159.0,Info,PanelView,"flingToHeight: vel=<*>.<*>, expand=true, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false",android
+160.0,Info,PanelView,onTrackingStopped: true,android
+191.0,Info,PanelView,onExpandingFinished,android
+194.0,Warning,ActivityManager,Sending non-protected broadcast <*> from system <*>:<*> pkg <*>,android
+195.0,Info,PhoneStatusBar,logNotificationVisibilityChanges runInThread start,android
+196.0,Info,NotificationManager,onNotificationVisibilityChanged called,android
+197.0,Info,PhoneStatusBar,logNotificationVisibilityChanges runInThread over,android
+198.0,Error,KeyguardUpdateMonitor,isSimPinSecure mSimDatas is null or empty,android
+199.0,Warning,KeyguardUpdateMonitor,registerCallback not in UI.,android
+200.0,Warning,KeyguardUpdateMonitor,<*>: Must execute in UI,android
+201.0,Verbose,KeyguardUpdateMonitor,*** register callback for <*>@<*>,android
+204.0,Verbose,KeyguardUpdateMonitor,*** unregister callback for null,android
+205.0,Debug,PhoneInterfaceManager,[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>,android
+206.0,Debug,PhoneInterfaceManager,[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=true,android
+209.0,Info,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",android
+212.0,Info,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",android
+213.0,Verbose,AudioManager,playSoundEffect   effectType: <*>,android
+215.0,Info,PhoneStatusBar,"animateCollapsePanels:flags=<*>, force=true, delayed=true, mExpandedVisible=true",android
+220.0,Info,ActivityManager,START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,android
+221.0,Info,ActivityManager,"ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>",android
+227.0,Info,NotificationManager,onNotificationClick called,android
+228.0,Info,NotificationManager,"cancelNotification,index:<*>",android
+229.0,Info,NotificationManager,"cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>",android
+230.0,Info,NotificationManager,"cancelNotificationLocked called,tell the app,reason = <*>",android
+231.0,Info,NotificationManager,cancelNotificationLocked:<*>|<*>|<*>|null|<*>,android
+232.0,Info,NotificationManager,"cancelNotificationLocked,remove =<*>",android
+233.0,Error,ActivityManager,applyOptionsLocked: Unknown animationType=<*>,android
+235.0,Info,PanelView,"flingToHeight: vel=<*>.<*>, expand=false, target=<*>.<*>, collapseSpeedUpFactor=<*>.<*>, expandBecauseOfFalsing=false",android
+242.0,Info,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",android
+257.0,Info,PhoneStatusBar,removeNotification:<*>|<*>|<*>|null|<*>,android
+258.0,Info,PhoneStatusBar,"updateNotificationShade: total=<*>, active=<*>",android
+259.0,Info,PhoneStatusBar,"animateCollapsePanels:flags=<*>, force=false, delayed=false, mExpandedVisible=true",android
+262.0,Info,WindowManager,The change in focus caused us to need to do a layout begin,android
+263.0,Info,WindowManager,The change in focus caused us to need to do a layout end,android
+271.0,Verbose,PhoneStatusBar,setLightsOn(true),android
+282.0,Info,PhoneStatusBar,removeNotificationChildren,android
+289.0,Debug,ActivityManager,"Skipping, withExcluded: false, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> }",android
+290.0,Debug,ActivityManager,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }",android
+291.0,Debug,ActivityManager,"Skipping, withExcluded: false, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }",android
+293.0,Debug,ActivityManager,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }",android
+294.0,Debug,ActivityManager,"Skipping, withExcluded: false, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) }",android
+295.0,Debug,ActivityManager,"getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>",android
+296.0,Debug,ActivityManager,getRecentTasks: topActivity=ComponentInfo{<*><*>.<*>},android
+303.0,Info,NotificationManager,"cancelNotificationWithTag pid <*>,uid = <*>,tag = null,pkg =<*>,id =<*>",android
+313.0,Debug,PhoneStatusBar,makeExpandedInvisible: mExpandedVisible=true,android
+314.0,Info,PanelView,closeQs,android
+316.0,Info,PanelView,instantCollapse,android
+320.0,Debug,PhoneStatusBar,disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >,android
+345.0,Verbose,KeyguardUpdateMonitor,*** unregister callback for <*>@<*>,android
+352.0,Warning,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,android
+360.0,Verbose,AudioManager,isMusicActive...,android
+362.0,Info,ActivityManager,"Start dump, calling from : pid=<*>, uid=<*>",android
+372.0,Verbose,AudioManager,setWiredDeviceConnectionState  type: <*>  state: <*>,android
+379.0,Debug,ActivityManager,"ActivityManagerService,attachApplication,callingPid = <*>",android
+388.0,Verbose,AudioManager,isBluetoothA2dpOn...,android
+390.0,Verbose,AudioManager,isBluetoothScoOn...,android
+391.0,Verbose,AudioManager,getLastAudibleStreamVolume  treamType: <*>,android
+405.0,Verbose,AudioManager,getDevicesForStream  streamType: <*>,android
+415.0,Debug,ActivityManager,cleanUpApplicationRecord -- <*>,android
+416.0,Info,ActivityManager,"cleanUpApplicationRecordLocked, pid: <*>, restart: false",android
+417.0,Info,ActivityManager,"cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>",android
+418.0,Info,DisplayManagerService,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false,android
+419.0,Info,DisplayManagerService,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>,android
+420.0,Verbose,AudioManager,getMode...,android
+421.0,Verbose,AudioManager,setSpeakerphoneOn  on: true,android
+422.0,Info,AudioManager,setSpeakerphoneOn on:true,android
+432.0,Info,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",android
+435.0,Verbose,AlarmManager,Received TIME_TICK alarm; rescheduling,android
+436.0,Info,AlarmManager,scheduleTimeTickEvent triggerAtTime = <*>,android
+441.0,Debug,KeyguardUpdateMonitor,received broadcast <*>,android
+442.0,Debug,KeyguardUpdateMonitor,handleTimeUpdate,android
+779.0,Info,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =null",android
+782.0,Info,ActivityManager,Killing <*>:<*><*> (adj <*>): empty for <*>,android
+915.0,Warning,ActivityManager,Unable to start service Intent { act=<*> cmp=<*>.<*> } U=<*>: not found,android
+1000.0,Verbose,AudioManager,unregisterAudioFocusListener...,android
+1001.0,Info,AudioManager,abandonAudioFocus,android
+1002.0,Info,MediaPlayer,"[HSM] stayAwake false uid: <*>, pid: <*>",android
+1003.0,Info,MediaPlayer,Pid:<*> MediaPlayer destructor,android
+1008.0,Info,ActivityManager,Process <*>:qzone (pid <*>) has died,android
+1010.0,Warning,ActivityManager,Scheduling restart of crashed service <*>.<*> in <*>,android
+1024.0,Info,ActivityManager,"new Process app=ProcessRecord{<*> <*>:<*>:qzone<*>}, name: <*>:qzone, euid: <*>",android
+1025.0,Info,ActivityManager,Start proc <*>:<*>:qzone<*> for service <*>.<*>,android
+1105.0,Info,PhoneStatusBar,"animateCollapsePanels:flags=<*>, force=false, delayed=false, mExpandedVisible=false",android
+1228.0,Info,NotificationManager,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> vis=PRIVATE),android
+1229.0,Info,NotificationManager,enqueueNotificationInternal: n.getKey = <*>,android
+1230.0,Verbose,AudioManager,getRingerMode...,android
+1231.0,Info,NotificationManager,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false",android
+1233.0,Info,PhoneStatusBar,addNotification key=<*>|<*>|<*>|null|<*>,android
+1234.0,Info,PanelView,mHeadsUpExistenceChangedRunnable,android
+1241.0,Info,NotificationManager,Marking notification as seen <*>|<*>|<*>|null|<*>,android
+1242.0,Info,NotificationManager,onNotificationExpansionChanged called,android
+1260.0,Info,ActivityManager,START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>,android
+1299.0,Debug,WindowManager,"ACTIVITY check resid: <*>, size=<*>",android
+1511.0,Info,PhoneInterfaceManager,shouldBlockLocation  ret:true,android
+1512.0,Debug,PhoneInterfaceManager,getAllCellInfo is blocked by permission manager . callingPackage = <*>,android
+1539.0,Debug,PhoneInterfaceManager,getCellLocation is blocked by permission manager uid:<*> pid:<*>,android
+1703.0,Verbose,AudioManager,isWiredHeadsetOn...,android
+1719.0,Info,MediaPlayer,"setDataSource(<*>, <*>, <*>)",android
+1726.0,Verbose,AudioManager,getStreamVolume  treamType: <*>,android
+1775.0,Debug,PowerManagerService,"updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>",android
+1777.0,Warning,KeyguardUpdateMonitor,ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>,android
+1778.0,Info,DeviceIdleController,updateChargingLocked: charging=false,android
+1779.0,Debug,WifiService,"onReceive, action:<*>",android
+1780.0,Debug,WifiService,ACTION_BATTERY_CHANGED pluggedType: <*>,android
+1781.0,Debug,WifiController,ApStaDisabledState what=<*>,android
+1782.0,Debug,WifiController,DefaultState what=<*>,android
+1783.0,Debug,WifiController,battery changed pluggedType: <*>,android
+1784.0,Verbose,KeyguardUpdateMonitor,RefreshBatteryInfo isBatteryLow: <*>,android
+1785.0,Warning,KeyguardUpdateMonitor,ChargingSpeed  Wattage: <*> ST: <*> --> <*>,android
+1786.0,Debug,KeyguardUpdateMonitor,handleBatteryUpdate,android
+1872.0,Info,NotificationManager,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE),android
+1937.0,Info,ActivityManager,START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,android
+1951.0,Warning,ActivityManager,startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) },android
+1958.0,Debug,PhoneStatusBar,makeExpandedInvisible: mExpandedVisible=false,android
+0.0,notice,,workerEnv.init() ok <*>,apache
+1.0,error,,mod_jk child workerEnv in error state <*>,apache
+2.0,notice,,jk2_init() Found child <*> in scoreboard slot <*>,apache
+131.0,error,,[client <*>] Directory index forbidden by rule: <*>,apache
+784.0,error,,jk2_init() Can't find child <*> in scoreboard,apache
+795.0,error,,mod_jk child init <*> <*>,apache
+,INFO,KERNEL,instruction cache parity error corrected,BGL
+,INFO,KERNEL,<*> double-hummer alignment exceptions,BGL
+,INFO,KERNEL,"CE sym <*>, at <*>, mask <*>",BGL
+,FATAL,APP,ciod: failed to read message prefix on control stream (CioStream socket to <*>:<*>,BGL
+,INFO,KERNEL,generating core.<*>,BGL
+,FATAL,KERNEL,force load/store alignment...............<*>,BGL
+,INFO,KERNEL,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>,BGL
+,FATAL,APP,ciod: LOGIN chdir(<*>) failed: No such file or directory,BGL
+,INFO,KERNEL,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>",BGL
+,FATAL,KERNEL,data TLB error interrupt,BGL
+,INFO,KERNEL,ciod: Message code <*> is not <*> or <*>,BGL
+,FATAL,KERNEL,data storage interrupt,BGL
+,FATAL,KERNEL,instruction address: <*>,BGL
+,FATAL,KERNEL,data address: <*>,BGL
+,FATAL,KERNEL,machine check: i-fetch......................<*>,BGL
+,FATAL,KERNEL,program interrupt: illegal instruction......<*>,BGL
+,FATAL,KERNEL,exception syndrome register: <*>,BGL
+,FATAL,KERNEL,data store interrupt caused by dcbf.........<*>,BGL
+,FATAL,KERNEL,program interrupt: privileged instruction...<*>,BGL
+,FATAL,KERNEL,program interrupt: trap instruction.........<*>,BGL
+,FATAL,KERNEL,program interrupt: imprecise exception......<*>,BGL
+,FATAL,KERNEL,store operation.............................<*>,BGL
+,FATAL,KERNEL,machine state register: <*>,BGL
+,FATAL,KERNEL,data store interrupt caused by icbi.........<*>,BGL
+,FATAL,KERNEL,"problem state (<*>=sup,<*>=usr).......<*>",BGL
+,FATAL,KERNEL,floating point instr. enabled.....<*>,BGL
+,FATAL,KERNEL,auxiliary processor.........................<*>,BGL
+,FATAL,KERNEL,machine check enable..............<*>,BGL
+,FATAL,KERNEL,floating pt ex mode <*> enable......<*>,BGL
+,FATAL,KERNEL,program interrupt: unimplemented operation..<*>,BGL
+,FATAL,KERNEL,debug interrupt enable............<*>,BGL
+,FATAL,KERNEL,byte ordering exception.....................<*>,BGL
+,FATAL,KERNEL,data address space................<*>,BGL
+,FATAL,KERNEL,core configuration register: <*>,BGL
+,FATAL,KERNEL,program interrupt: fp cr update.............<*>,BGL
+,FATAL,KERNEL,guaranteed instruction cache block touch.<*>,BGL
+,FATAL,KERNEL,program interrupt: fp cr field .............<*>,BGL
+,FATAL,KERNEL,guaranteed data cache block touch........<*>,BGL
+,FATAL,KERNEL,icache prefetch depth....................<*>,BGL
+,FATAL,KERNEL,icache prefetch threshold................<*>,BGL
+,FATAL,KERNEL,wait state enable.................<*>,BGL
+,FATAL,KERNEL,critical input interrupt enable...<*>,BGL
+,FATAL,KERNEL,special purpose registers:,BGL
+,FATAL,KERNEL,lr:<*> cr:<*> xer:<*> ctr:<*>,BGL
+,FATAL,KERNEL,rts internal error,BGL
+,FATAL,KERNEL,debug wait enable.................<*>,BGL
+,FATAL,KERNEL,instruction address space.........<*>,BGL
+,FATAL,KERNEL,disable store gathering..................<*>,BGL
+,INFO,KERNEL,total of <*> ddr error(s) detected and corrected,BGL
+,FATAL,APP,"ciod: Error loading <*>: invalid or missing program image, No such file or directory",BGL
+,FATAL,APP,ciod: Error creating node map from file <*>: No child processes,BGL
+,INFO,KERNEL,program interrupt,BGL
+,WARNING,DISCOVERY,Node card is not fully functional,BGL
+,FATAL,APP,ciod: Error creating node map from file <*>: Bad file descriptor,BGL
+,INFO,DISCOVERY,Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>,BGL
+,SEVERE,DISCOVERY,Can not get assembly information for node card,BGL
+,INFO,KERNEL,ciod: Missing or invalid fields on line <*> of node map file /<*>,BGL
+,INFO,KERNEL,<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected,BGL
+,INFO,KERNEL,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file /<*>,BGL
+,FATAL,APP,ciod: Error creating node map from file <*>: Block device required,BGL
+,FATAL,KERNEL,rts panic! - stopping execution,BGL
+,FATAL,APP,ciod: Error creating node map from file <*>: Permission denied,BGL
+,INFO,KERNEL,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file /<*>,BGL
+,FATAL,KERNEL,"rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>",BGL
+,INFO,KERNEL,<*> floating point alignment exceptions,BGL
+,INFO,DISCOVERY,New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>,BGL
+,SEVERE,HARDWARE,NodeCard is not fully functional,BGL
+,ERROR,DISCOVERY,"Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK.",BGL
+,INFO,DISCOVERY,"Node card VPD check: U<*> node in processor card slot J<*> do not match. VPD ecid <*>, found <*>",BGL
+,ERROR,MMCS,"idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",BGL
+,ERROR,DISCOVERY,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK.,BGL
+,WARNING,HARDWARE,"PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>",BGL
+,FATAL,KERNEL,rts tree/torus link training failed: wanted: <*> got: <*>,BGL
+,INFO,KERNEL,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected,BGL
+,FATAL,APP,"ciod: Error loading /<*>: invalid or missing program image, Exec format error",BGL
+,FATAL,APP,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed,BGL
+,FATAL,KERNEL,rts: kernel terminated for reason <*>,BGL
+,INFO,KERNEL,ciod: generated <*> core files for program <*>,BGL
+,INFO,KERNEL,iar <*> dear <*>,BGL
+,INFO,KERNEL,"NFS Mount failed on bglio<*>, slept <*> seconds, retrying (<*>)",BGL
+,FATAL,KERNEL,Lustre mount FAILED : bglio<*> : point <*>,BGL
+,INFO,KERNEL,<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected,BGL
+,INFO,KERNEL,ciod: pollControlDescriptors: Detected the debugger died.,BGL
+,INFO,KERNEL,"ciod: In packet from node <*>.<*> (<*>), message code <*> is not <*> or <*> (softheader=<*> <*> <*> <*>)",BGL
+,INFO,KERNEL,<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected,BGL
+,INFO,KERNEL,suppressing further interrupts of same type,BGL
+,FATAL,KERNEL,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>,BGL
+,INFO,KERNEL,critical input interrupt (unit=<*> bit=<*>): warning for torus y+ wire,BGL
+,FATAL,APP,"ciod: Error loading /<*>: invalid or missing program image, Permission denied",BGL
+,INFO,KERNEL,data cache search parity error detected. attempting to correct,BGL
+,INFO,KERNEL,shutdown complete,BGL
+,INFO,KERNEL,critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire,BGL
+,FATAL,KERNEL,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>",BGL
+,INFO,KERNEL,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected,BGL
+,INFO,KERNEL,"critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type",BGL
+,INFO,KERNEL,<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds,BGL
+,INFO,KERNEL,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>",BGL
+,FATAL,KERNEL,Lustre mount FAILED : bglio<*> : block_id : location,BGL
+,INFO,KERNEL,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>),BGL
+,FATAL,APP,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection timed out",BGL
+,FATAL,APP,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection reset by peer",BGL
+,FATAL,KERNEL,dbcr0=<*> dbsr=<*> ccr0=<*>,BGL
+,FATAL,APP,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed",BGL
+,FATAL,KERNEL,r24=<*> r25=<*> r26=<*> r27=<*>,BGL
+,INFO,KERNEL,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds,BGL
+,INFO,KERNEL,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.,BGL
+,INFO,KERNEL,"<*> total interrupts. 0 critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.",BGL
+,INFO,KERNEL,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds",BGL
+,WARNING,HARDWARE,"PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>",BGL
+,INFO,KERNEL,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>",BGL
+,INFO,KERNEL,total of <*> ddr error(s) detected and corrected over <*> seconds,BGL
+,FATAL,KERNEL,minus normalized number..................<*>,BGL
+,FATAL,KERNEL,fraction rounded.........................<*>,BGL
+,INFO,KERNEL,"critical input interrupt (unit=<*> bit=<*>): warning for tree C1 wire, suppressing further interrupts of same type",BGL
+,FATAL,KERNEL,size of scratchpad portion of L3.........<*> (<*>),BGL
+,FATAL,APP,ciod: LOGIN chdir(<*>) failed: Input/output error,BGL
+,INFO,KERNEL,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected over <*> seconds,BGL
+,FATAL,APP,"ciod: Error loading /<*>: program image too big, <*> > <*>",BGL
+,FATAL,KERNEL,fpr29=<*>,BGL
+,FATAL,KERNEL,Machine State Register: <*>,BGL
+,INFO,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,Created MRAppMaster for application appattempt_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,Executing with tokens:,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,Using mapred newApiCommitter.,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,OutputCommitter set in config null,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter,Hadoop
+,INFO,org.apache.hadoop.yarn.event.AsyncDispatcher,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils,Default file system [hdfs://<*>:<*>],Hadoop
+,INFO,org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler,Emitting job history data to the timeline server is not enabled,Hadoop
+,INFO,org.apache.hadoop.metrics2.impl.MetricsConfig,loaded properties from hadoop-metrics2.properties,Hadoop
+,INFO,org.apache.hadoop.metrics2.impl.MetricsSystemImpl,Scheduled snapshot period at <*> second(s).,Hadoop
+,INFO,org.apache.hadoop.metrics2.impl.MetricsSystemImpl,MRAppMaster metrics system started,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,Adding job token for job_<*> to jobTokenSecretManager,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,Not uberizing job_<*> because: not enabled; too many maps; too much input;,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,Input size for job job_<*> = <*>. Number of splits = <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,Number of reduces for job job_<*> = <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,job_<*>Job Transitioned from NEW to INITED,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.MRAppMaster,"MRAppMaster launching normal, non-uberized, multi-container job job_<*>.",Hadoop
+,INFO,org.apache.hadoop.ipc.CallQueueManager,Using callQueue class java.util.concurrent.LinkedBlockingQueue,Hadoop
+,INFO,org.apache.hadoop.ipc.Server,Starting Socket Reader #<*> for port <*>,Hadoop
+,INFO,org.apache.hadoop.yarn.factories.impl.pb.RpcServerFactoryPBImpl,Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.client.MRClientService,Instantiated MRClientService at MININT-<*>/<*>:<*>,Hadoop
+,INFO,org.apache.hadoop.ipc.Server,IPC Server Responder: starting,Hadoop
+,INFO,org.apache.hadoop.ipc.Server,IPC Server listener on <*>: starting,Hadoop
+,INFO,org.mortbay.log,Logging to <*>(org.mortbay.log) via <*>,Hadoop
+,INFO,org.apache.hadoop.http.HttpRequestLog,Http request log for http.requests.mapreduce is not defined,Hadoop
+,INFO,org.apache.hadoop.http.HttpServer2,Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter),Hadoop
+,INFO,org.apache.hadoop.http.HttpServer2,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce,Hadoop
+,INFO,org.apache.hadoop.http.HttpServer2,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static,Hadoop
+,INFO,org.apache.hadoop.http.HttpServer2,adding path spec: /<*>/*,Hadoop
+,INFO,org.apache.hadoop.http.HttpServer2,Jetty bound to port <*>,Hadoop
+,INFO,org.mortbay.log,jetty-6.1.26,Hadoop
+,INFO,org.mortbay.log,Extract jar:file:<*> to <*>,Hadoop
+,INFO,org.mortbay.log,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>,Hadoop
+,INFO,org.apache.hadoop.yarn.webapp.WebApps,Web app /mapreduce started at <*>,Hadoop
+,INFO,org.apache.hadoop.yarn.webapp.WebApps,Registered webapp guice modules,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator,JOB_CREATE job_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor,nodeBlacklistingEnabled:true,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor,maxTaskFailuresPerNode is <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor,blacklistDisablePercent is <*>,Hadoop
+,INFO,org.apache.hadoop.yarn.client.RMProxy,Connecting to ResourceManager at <*>/<*>:<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,"maxContainerCapability: <memory:<*>, vCores:<*>>",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,queue: default,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl,Upper limit on the thread pool size is <*>,Hadoop
+,INFO,org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy,yarn.client.max-cached-nodemanagers-proxies : <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,job_<*>Job Transitioned from INITED to SETUP,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler,Processing the event EventType: JOB_SETUP,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,job_<*>Job Transitioned from SETUP to RUNNING,Hadoop
+,INFO,org.apache.hadoop.yarn.util.RackResolver,Resolved <*> to /default-rack,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl,task_<*> Task Transitioned from NEW to SCHEDULED,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from NEW to UNASSIGNED,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,"mapResourceRequest:<memory:<*>, vCores:<*>>",Hadoop
+,INFO,org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler,"Event Writer setup for JobId: job_<*>, File: hdfs://<*>",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,"reduceResourceRequest:<memory:<*>, vCores:<*>>",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor,"getResources() for application_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Got allocated containers <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Assigned container container_<*> to attempt_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:0 ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,The job-jar file on the remote FS is hdfs://<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,The job-conf file on the remote FS is <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,Adding #<*> tokens and #<*> secret keys for NM use for launching container,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,Size of containertokens_dob is <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,Putting shuffle token in serviceData,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl,Processing the event EventType: CONTAINER_REMOTE_<*> for container container_<*> taskAttempt attempt_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl,Launching attempt_<*>,Hadoop
+,INFO,org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy,Opening proxy : <*>:<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl,Shuffle port returned by ContainerManager for attempt_<*> : <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,TaskAttempt: [attempt_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [<*>:<*>],Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator,ATTEMPT_START task_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl,task_<*> Task Transitioned from SCHEDULED to RUNNING,Hadoop
+,INFO,SecurityLogger.org.apache.hadoop.ipc.Server,Auth successful for job_<*> (auth:SIMPLE),Hadoop
+,INFO,org.apache.hadoop.mapred.TaskAttemptListenerImpl,JVM with ID : jvm_<*> asked for a task,Hadoop
+,INFO,org.apache.hadoop.mapred.TaskAttemptListenerImpl,JVM with ID: jvm_<*> given task: <*>_<*>,Hadoop
+,INFO,org.apache.hadoop.mapred.TaskAttemptListenerImpl,Progress of TaskAttempt attempt_<*> is : <*>.<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,"Cannot assign container Container: [ContainerId: container_<*>, NodeId: <*>:<*>, NodeHttpAddress: <*>:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>:<*> }, ] for a map as either  container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=true",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Received completed container container_<*>,Hadoop
+,ERROR,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Container complete event for unknown container id container_<*>,Hadoop
+,INFO,org.apache.hadoop.mapred.TaskAttemptListenerImpl,Done acknowledgement from attempt_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl,KILLING attempt_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl,Task succeeded with attempt attempt_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl,task_<*> Task Transitioned from RUNNING to SUCCEEDED,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl,Num completed Tasks: <*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Reduce slow start threshold reached. Scheduling reduces.,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,All maps assigned. Ramping up all remaining reduces:<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator,We launched <*> speculations.  Sleeping <*> milliseconds.,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl,Scheduling a redundant attempt for task task_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,Diagnostics report from attempt_<*>: Container killed by the ApplicationMaster.,Hadoop
+,WARN,org.apache.hadoop.ipc.Client,Address change detected. Old: <*>/<*>:<*> New: <*>:<*>,Hadoop
+,WARN,org.apache.hadoop.hdfs.LeaseRenewer,Failed to renew lease for [DFSClient_NONMAPREDUCE_<*>_<*>] for <*> seconds.  Will retry shortly ...,Hadoop
+,WARN,org.apache.hadoop.hdfs.DFSClient,"Slow ReadProcessor read fields took <*>ms (threshold=<*>ms); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>:<*>, <*>:<*>]",Hadoop
+,WARN,org.apache.hadoop.hdfs.DFSClient,DFSOutputStream ResponseProcessor exception  for block BP-<*>:blk_<*>,Hadoop
+,WARN,org.apache.hadoop.hdfs.DFSClient,"Error Recovery for block BP-<*>:blk_<*> in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*>",Hadoop
+,WARN,org.apache.hadoop.hdfs.DFSClient,DataStreamer Exception,Hadoop
+,ERROR,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,ERROR IN CONTACTING RM.,Hadoop
+,INFO,org.apache.hadoop.ipc.Client,"Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",Hadoop
+,FATAL,org.apache.hadoop.mapred.TaskAttemptListenerImpl,Task: attempt_<*> - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost,Hadoop
+,INFO,org.apache.hadoop.mapred.TaskAttemptListenerImpl,Diagnostics report from attempt_<*>: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler,Processing the event EventType: TASK_ABORT,Hadoop
+,WARN,org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler,Task cleanup failed for attempt attempt_<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl,attempt_<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,Hadoop
+,ERROR,org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler,Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>,Hadoop
+,ERROR,org.apache.hadoop.yarn.YarnUncaughtExceptionHandler,"Thread Thread[eventHandlingThread,<*>,main] threw an Exception.",Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor,<*> failures on node MININT-<*>,Hadoop
+,INFO,org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator,Added attempt_<*> to list of failed maps,Hadoop
+,INFO,dfs.DataNode$PacketResponder,PacketResponder <*> for block blk_<*> terminating,HDFS
+,INFO,dfs.FSNamesystem,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to blk_<*> size <*>,HDFS
+,INFO,dfs.DataNode$PacketResponder,Received block blk_<*> of size <*> from /<*>,HDFS
+,INFO,dfs.DataNode$DataXceiver,Receiving block blk_<*> src: /<*>:<*> dest: /<*>:<*>,HDFS
+,INFO,dfs.FSNamesystem,BLOCK* NameSystem.allocateBlock: /<*>/part-<*>. blk_<*>,HDFS
+,INFO,dfs.DataBlockScanner,Verification succeeded for blk_<*>,HDFS
+,INFO,dfs.FSDataset,Deleting block blk_<*> file /<*>/blk_<*>,HDFS
+,INFO,dfs.DataNode$DataXceiver,<*>:<*> Served block blk_<*> to /<*>,HDFS
+,WARN,dfs.DataNode$DataXceiver,<*>:<*>:Got exception while serving blk_<*> to /<*>:,HDFS
+,INFO,dfs.FSNamesystem,BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>:<*>,HDFS
+,INFO,dfs.DataNode,<*>:<*> Starting thread to transfer block blk_<*> to <*>:<*>,HDFS
+,INFO,dfs.FSNamesystem,BLOCK* ask <*>:<*> to delete  blk_<*>,HDFS
+,INFO,dfs.DataNode$DataXceiver,Received block blk_<*> src: /<*>:<*> dest: /<*>:<*> of size <*>,HDFS
+,INFO,dfs.FSNamesystem,BLOCK* ask <*>:<*> to replicate blk_<*> to datanode(s) <*>:<*>,HDFS
+,combo,sshd(pam_unix),authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*>,Linux
+,combo,sshd(pam_unix),check pass; user unknown,Linux
+,combo,sshd(pam_unix),authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*>  user=root,Linux
+,combo,su(pam_unix),session opened for user <*> by (uid=<*>),Linux
+,combo,su(pam_unix),session closed for user <*>,Linux
+,combo,logrotate,ALERT exited abnormally with [1],Linux
+,combo,ftpd,connection from <*> (<*>) at <*>:<*>:<*>,Linux
+,combo,sshd(pam_unix),authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*>  user=guest,Linux
+,combo,ftpd,User unknown timed out after <*> seconds at <*>:<*>:<*> <*>,Linux
+,combo,cups,cupsd shutdown succeeded,Linux
+,combo,cups,cupsd startup succeeded,Linux
+,combo,syslogd 1.4.1,restart.,Linux
+,combo,snmpd,Received SNMP packet(s) from <*>,Linux
+,combo,klogind,Authentication failed from <*> (<*>): Permission denied in replay cache code,Linux
+,combo,klogind,Kerberos authentication failed,Linux
+,combo,klogind,Authentication failed from <*> (<*>): Software caused connection abort,Linux
+,combo,gpm,*** info [mice.c(<*>)]:,Linux
+,combo,gpm,imps2: Auto-detected intellimouse PS/<*>,Linux
+,combo,login(pam_unix),session opened for user <*> by LOGIN(uid=<*>),Linux
+,combo,-- root,ROOT LOGIN ON tty2,Linux
+,combo,udev,removing device node '/udev/<*>',Linux
+,combo,udev,creating device node '/udev/<*>',Linux
+,combo,sshd(pam_unix),authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*>  user=test,Linux
+,combo,gdm(pam_unix),authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=,Linux
+,combo,gdm-binary,Couldn't authenticate user,Linux
+,combo,ftpd,"ANONYMOUS FTP LOGIN FROM <*>,  (anonymous)",Linux
+,combo,named,notify question section contains no SOA,Linux
+,combo,ftpd,getpeername (ftpd): Transport endpoint is not connected,Linux
+,combo,xinetd,warning: can't get client address: Connection reset by peer,Linux
+,combo,syslog,syslogd startup succeeded,Linux
+,combo,kernel,"klogd <*>.<*>.<*>, log source = /proc/kmsg started.",Linux
+,combo,kernel,Linux version <*>.<*>.<*><*>.<*> (bhcompile@bugs.build.redhat.com) (gcc version <*>.<*>.<*> (Red Hat Linux <*>.<*>.<*><*>)) #<*> <*>:<*>:<*> EDT <*>,Linux
+,combo,kernel,BIOS-provided physical RAM map:,Linux
+,combo,kernel,BIOS-e820: <*> - <*> (usable),Linux
+,combo,kernel,BIOS-e820: <*> - <*> (reserved),Linux
+,combo,kernel,<*> HIGHMEM available.,Linux
+,combo,kernel,<*> LOWMEM available.,Linux
+,combo,kernel,zapping low mappings.,Linux
+,combo,syslog,klogd startup succeeded,Linux
+,combo,kernel,On node <*> totalpages: <*>,Linux
+,combo,kernel,"DMA zone: <*> pages, LIFO batch:<*>",Linux
+,combo,kernel,"Normal zone: <*> pages, LIFO batch:<*>",Linux
+,combo,irqbalance,irqbalance startup succeeded,Linux
+,combo,kernel,"HighMem zone: <*> pages, LIFO batch:<*>",Linux
+,combo,kernel,DMI <*>.<*> present.,Linux
+,combo,kernel,ACPI disabled because your bios is from <*> and too old,Linux
+,combo,kernel,You can enable it with acpi=force,Linux
+,combo,kernel,Built <*> zonelists,Linux
+,combo,kernel,Kernel command line: ro root=LABEL=/ rhgb quiet,Linux
+,combo,kernel,mapped 4G/4G trampoline to <*>.,Linux
+,combo,kernel,Initializing CPU#<*>,Linux
+,combo,kernel,"CPU <*> irqstacks, hard=<*> soft=<*>",Linux
+,combo,portmap,portmap startup succeeded,Linux
+,combo,kernel,PID hash table entries: 512 (order <*>: <*> bytes),Linux
+,combo,kernel,Detected <*>.<*> MHz processor.,Linux
+,combo,rpc.statd,Version <*>.<*>.<*> Starting,Linux
+,combo,kernel,Using tsc for high-res timesource,Linux
+,combo,nfslock,rpc.statd startup succeeded,Linux
+,combo,kernel,Console: colour VGA+ <*>,Linux
+,combo,kernel,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)",Linux
+,combo,kernel,Calibrating delay loop... <*>.<*> BogoMIPS,Linux
+,combo,kernel,Security Scaffold v<*>.<*>.<*> initialized,Linux
+,combo,kernel,SELinux:  Initializing.,Linux
+,combo,kernel,SELinux:  Starting in permissive mode,Linux
+,combo,kernel,"There is already a security framework initialized, register_security failed.",Linux
+,combo,kernel,Failure registering capabilities with the kernel,Linux
+,combo,kernel,selinux_register_security:  Registering secondary module capability,Linux
+,combo,kernel,Capability LSM initialized,Linux
+,combo,rpcidmapd,rpc.idmapd startup succeeded,Linux
+,combo,kernel,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)",Linux
+,combo,kernel,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)",Linux
+,combo,kernel,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)",Linux
+,combo,kernel,"CPU: L1 I cache: <*>, L1 D cache: <*>",Linux
+,combo,kernel,CPU: L2 cache: <*>,Linux
+,combo,kernel,Intel machine check architecture supported.,Linux
+,combo,kernel,Intel machine check reporting enabled on CPU#<*>.,Linux
+,combo,kernel,CPU: Intel Pentium III (Coppermine) stepping <*>,Linux
+,combo,kernel,Enabling fast FPU save and restore... done.,Linux
+,combo,kernel,Enabling unmasked SIMD FPU exception support... done.,Linux
+,combo,kernel,Checking 'hlt' instruction... OK.,Linux
+,combo,random,Initializing random number generator:  succeeded,Linux
+,combo,kernel,POSIX conformance testing by UNIFIX,Linux
+,combo,kernel,NET: Registered protocol family <*>,Linux
+,combo,kernel,"PCI: PCI BIOS revision <*>.<*> entry at <*>, last bus=<*>",Linux
+,combo,kernel,PCI: Using configuration type <*>,Linux
+,combo,kernel,mtrr: v<*>.<*> (<*>),Linux
+,combo,kernel,ACPI: Subsystem revision <*>,Linux
+,combo,kernel,ACPI: Interpreter disabled.,Linux
+,combo,kernel,Linux Plug and Play Support v<*>.<*> (c) Adam Belay,Linux
+,combo,rc,Starting pcmcia:  succeeded,Linux
+,combo,kernel,usbcore: registered new driver usbfs,Linux
+,combo,kernel,usbcore: registered new driver hub,Linux
+,combo,kernel,ACPI: ACPI tables contain no PCI IRQ routing entries,Linux
+,combo,kernel,PCI: Invalid ACPI-PCI IRQ routing table,Linux
+,combo,kernel,PCI: Probing PCI hardware,Linux
+,combo,kernel,PCI: Probing PCI hardware (bus <*>),Linux
+,combo,kernel,Transparent bridge - <*>,Linux
+,combo,kernel,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>,Linux
+,combo,kernel,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>),Linux
+,combo,kernel,audit: initializing netlink socket (disabled),Linux
+,combo,sysctl,kernel.core_uses_pid = <*>,Linux
+,combo,hcid,HCI daemon ver <*>.<*> started,Linux
+,combo,bluetooth,hcid startup succeeded,Linux
+,combo,kernel,audit(<*>.<*>:<*>): initialized,Linux
+,combo,network,Setting network parameters:  succeeded,Linux
+,combo,bluetooth,sdpd startup succeeded,Linux
+,combo,sdpd,sdpd v<*>.<*> started,Linux
+,combo,kernel,"Total HugeTLB memory allocated, <*>",Linux
+,combo,network,Bringing up loopback interface:  succeeded,Linux
+,combo,kernel,VFS: Disk quotas dquot_<*>.<*>.<*>,Linux
+,combo,kernel,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)",Linux
+,combo,kernel,SELinux:  Registering netfilter hooks,Linux
+,combo,kernel,Initializing Cryptographic API,Linux
+,combo,kernel,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>,Linux
+,combo,kernel,isapnp: Scanning for PnP cards...,Linux
+,combo,kernel,isapnp: No Plug & Play device found,Linux
+,combo,kernel,Real Time Clock Driver v<*>.<*>,Linux
+,combo,kernel,Linux agpgart interface v<*>.<*> (c) Dave Jones,Linux
+,INFO,nova.osapi_compute.wsgi.server,"<*> ""GET <*>"" status: <*> len: <*> time: <*>.<*>",OpenStack
+,INFO,nova.compute.manager,[instance: <*>] VM Started (Lifecycle Event),OpenStack
+,INFO,nova.compute.manager,[instance: <*>] VM Paused (Lifecycle Event),OpenStack
+,INFO,nova.compute.manager,[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.,OpenStack
+,INFO,nova.virt.libvirt.imagecache,image <*> at (<*>): checking,OpenStack
+,INFO,nova.virt.libvirt.imagecache,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",OpenStack
+,INFO,nova.virt.libvirt.imagecache,Active base files: <*>,OpenStack
+,INFO,nova.api.openstack.compute.server_external_events,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>,OpenStack
+,INFO,nova.osapi_compute.wsgi.server,"<*> ""POST <*>"" status: <*> len: <*> time: <*>.<*>",OpenStack
+,INFO,nova.compute.manager,[instance: <*>] VM Resumed (Lifecycle Event),OpenStack
+,INFO,nova.virt.libvirt.driver,[instance: <*>] Instance spawned successfully.,OpenStack
+,INFO,nova.compute.manager,[instance: <*>] Took <*>.<*> seconds to spawn the instance on the hypervisor.,OpenStack
+,INFO,nova.compute.manager,[instance: <*>] Took <*>.<*> seconds to build instance.,OpenStack
+,INFO,nova.compute.resource_tracker,Auditing locally available compute resources for node <*>,OpenStack
+,INFO,nova.compute.resource_tracker,"Total usable vcpus: <*>, total allocated vcpus: <*>",OpenStack
+,INFO,nova.compute.resource_tracker,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[],OpenStack
+,INFO,nova.compute.resource_tracker,Compute_service record updated for <*>,OpenStack
+,INFO,nova.osapi_compute.wsgi.server,"<*> ""DELETE <*>"" status: <*> len: <*> time: <*>.<*>",OpenStack
+,INFO,nova.compute.manager,[instance: <*>] Terminating instance,OpenStack
+,INFO,nova.virt.libvirt.driver,[instance: <*>] Instance destroyed successfully.,OpenStack
+,INFO,nova.virt.libvirt.driver,[instance: <*>] Deleting instance files <*>,OpenStack
+,INFO,nova.virt.libvirt.driver,[instance: <*>] Deletion of <*> complete,OpenStack
+,INFO,nova.compute.manager,[instance: <*>] Took <*>.<*> seconds to destroy the instance on the hypervisor.,OpenStack
+,INFO,nova.compute.manager,[instance: <*>] Took <*>.<*> seconds to deallocate network for instance.,OpenStack
+,WARNING,nova.virt.libvirt.imagecache,Unknown base file: <*>,OpenStack
+,INFO,nova.virt.libvirt.imagecache,Removable base files: <*>,OpenStack
+,INFO,nova.virt.libvirt.imagecache,Removing base or swap file: <*>,OpenStack
+,INFO,nova.api.openstack.wsgi,HTTP exception thrown: No instances found for any event,OpenStack
+,INFO,nova.compute.claims,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",OpenStack
+,INFO,nova.compute.claims,"[instance: <*>] Total memory: <*> MB, used: <*>.<*> MB",OpenStack
+,INFO,nova.compute.claims,"[instance: <*>] memory limit: <*>.<*> MB, free: <*>.<*> MB",OpenStack
+,INFO,nova.compute.claims,"[instance: <*>] Total disk: <*> GB, used: <*>.<*> GB",OpenStack
+,INFO,nova.compute.claims,"[instance: <*>] disk limit not specified, defaulting to unlimited",OpenStack
+,INFO,nova.compute.claims,"[instance: <*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",OpenStack
+,INFO,nova.compute.claims,"[instance: <*>] vcpu limit not specified, defaulting to unlimited",OpenStack
+,INFO,nova.compute.claims,[instance: <*>] Claim successful,OpenStack
+,INFO,nova.virt.libvirt.driver,[instance: <*>] Creating image,OpenStack
+,INFO,nova.compute.manager,[instance: <*>] VM Stopped (Lifecycle Event),OpenStack
+,INFO,nova.scheduler.host_manager,Successfully synced instances from host '<*>'.,OpenStack
+,INFO,nova.compute.manager,Running instance usage audit for host <*> from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.,OpenStack
+,INFO,nova.virt.libvirt.imagecache,Base or swap file too young to remove: <*>,OpenStack
+,INFO,nova.scheduler.host_manager,The instance sync for host '<*>' did not match. Re-created its InstanceList.,OpenStack
+,WARNING,nova.compute.manager,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",OpenStack
+,INFO,executor.CoarseGrainedExecutorBackend,"Registered signal handlers for [TERM, HUP, INT]",Spark
+,INFO,spark.SecurityManager,Changing view acls to: <*>,Spark
+,INFO,spark.SecurityManager,Changing modify acls to: <*>,Spark
+,INFO,spark.SecurityManager,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",Spark
+,INFO,slf4j.Slf4jLogger,Slf4jLogger started,Spark
+,INFO,Remoting,Starting remoting,Spark
+,INFO,Remoting,Remoting started; listening on addresses :[akka.tcp://<*>],Spark
+,INFO,util.Utils,Successfully started service 'sparkExecutorActorSystem' on port <*>.,Spark
+,INFO,storage.DiskBlockManager,Created local directory at <*>,Spark
+,INFO,storage.MemoryStore,MemoryStore started with capacity <*> GB,Spark
+,INFO,executor.CoarseGrainedExecutorBackend,Connecting to driver: spark://<*>,Spark
+,INFO,executor.CoarseGrainedExecutorBackend,Successfully registered with driver,Spark
+,INFO,executor.Executor,Starting executor ID <*> on host <*>,Spark
+,INFO,util.Utils,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,Spark
+,INFO,netty.NettyBlockTransferService,Server created on <*>,Spark
+,INFO,storage.BlockManagerMaster,Trying to register BlockManager,Spark
+,INFO,storage.BlockManagerMaster,Registered BlockManager,Spark
+,INFO,executor.CoarseGrainedExecutorBackend,Got assigned task <*>,Spark
+,INFO,executor.Executor,Running task <*> in stage <*> (TID <*>),Spark
+,INFO,broadcast.TorrentBroadcast,Started reading broadcast variable <*>,Spark
+,INFO,storage.MemoryStore,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",Spark
+,INFO,broadcast.TorrentBroadcast,Reading broadcast variable <*> took <*> ms,Spark
+,INFO,storage.MemoryStore,"Block <*> stored as values in memory (estimated size <*>, free <*>)",Spark
+,INFO,spark.CacheManager,"Partition rdd_<*> not found, computing it",Spark
+,INFO,rdd.HadoopRDD,Input split: hdfs://<*>,Spark
+,INFO,Configuration.deprecation,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",Spark
+,INFO,Configuration.deprecation,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",Spark
+,INFO,Configuration.deprecation,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",Spark
+,INFO,Configuration.deprecation,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",Spark
+,INFO,Configuration.deprecation,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",Spark
+,INFO,python.PythonRunner,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",Spark
+,INFO,executor.Executor,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,Spark
+,INFO,storage.BlockManager,Found block rdd_<*> locally,Spark
+,INFO,output.FileOutputCommitter,File Output Committer Algorithm version is <*>,Spark
+,INFO,output.FileOutputCommitter,Saved output of task 'attempt_<*>' to hdfs://<*>,Spark
+,INFO,mapred.SparkHadoopMapRedUtil,attempt_<*>: Committed,Spark
+,Info,CBS,Loaded Servicing Stack <*> with Core: <*>\cbscore.dll,Windows
+,Info,CSI,<*>@<*>/<*>/<*>:<*>:<*>:<*>.<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>),Windows
+,Info,CBS,Ending TrustedInstaller initialization.,Windows
+,Info,CBS,Starting the TrustedInstaller main loop.,Windows
+,Info,CBS,TrustedInstaller service starts successfully.,Windows
+,Info,CBS,SQM: Initializing online with Windows opt-in: False,Windows
+,Info,CBS,SQM: Cleaning up report files older than <*> days.,Windows
+,Info,CBS,SQM: Requesting upload of all unsent reports.,Windows
+,Info,CBS,"SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - E_FAIL]",Windows
+,Info,CBS,SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL],Windows
+,Info,CBS,"SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>",Windows
+,Info,CBS,SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL],Windows
+,Info,CBS,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",Windows
+,Info,CBS,NonStart: Checking to ensure startup processing was not required.,Windows
+,Info,CSI,"<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>",Windows
+,Info,CSI,"<*> Creating NT transaction (seq <*>), objectname [<*>]""(null)""",Windows
+,Info,CSI,"<*> Created NT transaction (seq <*>) result <*>, handle @<*>",Windows
+,Info,CSI,<*> CSI perf trace:,Windows
+,Info,CBS,"NonStart: Success, startup processing not required as expected.",Windows
+,Info,CBS,Startup processing thread terminated normally,Windows
+,Info,CSI,<*> CSI Store <*> (<*>) initialized,Windows
+,Info,CBS,Session: <*>_<*> initialized by client WindowsUpdateAgent.,Windows
+,Info,CBS,Warning: Unrecognized packageExtended attribute.,Windows
+,Info,CBS,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM],Windows
+,Info,CBS,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM],Windows
+,Info,CBS,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE],Windows
+,Info,CBS,"Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>",Windows
+,Info,CBS,Failed to create backup log cab. [HRESULT = <*> - ERROR_INVALID_FUNCTION],Windows
+,Info,CBS,Reboot mark refs incremented to: <*>,Windows
+,Info,CBS,Scavenge: Starts,Windows
+,Info,CSI,"<*>@<*>/<*>/<*>:<*>:<*>:<*>.<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]""<*>/""",Windows
+,Info,CBS,Scavenge: Begin CSI Store,Windows
+,Info,CSI,<*> Performing <*> operations; <*> are not lock/unlock and follow:,Windows
+,Info,CSI,"<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.",Windows
+,Info,CSI,<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=<*>,Windows
+,Info,CBS,"Scavenge: Completed, disposition: <*>",Windows
+,Info,CSI,<*>@<*>/<*>/<*>:<*>:<*>:<*>.<*> CSI Transaction @<*> destroyed,Windows
+,Info,CBS,Reboot mark refs: <*>,Windows
+,Info,CBS,Idle processing thread terminated normally,Windows
+,Info,CBS,Ending the TrustedInstaller main loop.,Windows
+,Info,CBS,Starting TrustedInstaller finalization.,Windows
+,Info,CBS,Ending TrustedInstaller finalization.,Windows
+,Info,CBS,Starting TrustedInstaller initialization.,Windows
+,Info,CBS,"Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.",Windows
+,Info,CBS,Offline image is: read-only,Windows
+,Info,CBS,"Disabling manifest caching, because the image is not writeable.",Windows
+,Info,CSI,<*>@<*>/<*>/<*>:<*>:<*>:<*>.<*> PopulateComponentFamiliesKey - Begin,Windows
+,Info,CSI,<*>@<*>/<*>/<*>:<*>:<*>:<*>.<*> PopulateComponentFamiliesKey - End,Windows
+,Info,CBS,Session: <*>_<*> initialized by client SPP.,Windows
+,Info,CBS,Unloading offline registry hive: <*>,Windows
+,INFO,0:0:0:0:0:0:0:2181:FastLeaderElection,Notification time out: <*>,Zookeeper
+,INFO,3888:QuorumCnxManager$Listener,Received connection request /<*>:<*>,Zookeeper
+,WARN,188978561024:QuorumCnxManager$SendWorker,Send worker leaving thread,Zookeeper
+,WARN,188978561024:QuorumCnxManager$SendWorker,Interrupted while waiting for message on queue,Zookeeper
+,WARN,188978561024:QuorumCnxManager$RecvWorker,"Connection broken for id <*>, my id = <*>, error =",Zookeeper
+,WARN,188978561024:QuorumCnxManager$RecvWorker,Interrupting SendWorker,Zookeeper
+,INFO,0.0.0.0/0.0.0.0:2181:NIOServerCnxn,Closed socket connection for client /<*>:<*> which had sessionid <*>,Zookeeper
+,WARN,0.0.0.0/0.0.0.0:2181:NIOServerCnxn,caught end of stream exception,Zookeeper
+,INFO,0.0.0.0/0.0.0.0:2181:ZooKeeperServer,Client attempting to renew session <*> at /<*>:<*>,Zookeeper
+,INFO,0.0.0.0/0.0.0.0:2181:ZooKeeperServer,Client attempting to establish new session at /<*>:<*>,Zookeeper
+,INFO,1:ZooKeeperServer,Established session <*> with negotiated timeout <*> for client /<*>:<*>,Zookeeper
+,INFO,0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory,Accepted socket connection from /<*>:<*>,Zookeeper
+,ERROR,1:NIOServerCnxn,Unexpected Exception:,Zookeeper
+,WARN,0.0.0.0/0.0.0.0:2181:ZooKeeperServer,Connection request from old client /<*>:<*>; will be dropped if server is in r-o mode,Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:Environment,Server environment:<*>,Zookeeper
+,WARN,QuorumCnxManager,Cannot open channel to <*> at election address /<*>:<*>,Zookeeper
+,INFO,1 cport:-1)::PrepRequestProcessor,Processed session termination for sessionid: <*>,Zookeeper
+,INFO,ZooKeeperServer,"Expiring session <*>, timeout of <*>ms exceeded",Zookeeper
+,WARN,35276:LearnerHandler,******* GOODBYE /<*>:<*> ********,Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:QuorumPeer,LOOKING,Zookeeper
+,INFO,QuorumCnxManager$Listener,My election bind port: <*>/<*>:<*>,Zookeeper
+,INFO,QuorumCnxManager,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:QuorumPeer,FOLLOWING,Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:FastLeaderElection,"New election. My id =  <*>, proposed zxid=<*>",Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:Follower,FOLLOWING - LEADER ELECTION TOOK - <*>,Zookeeper
+,INFO,FastLeaderElection,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",Zookeeper
+,INFO,DatadirCleanupManager,autopurge.snapRetainCount set to <*>,Zookeeper
+,INFO,0.0.0.0/0.0.0.0:2181:Learner,Revalidating client: <*>,Zookeeper
+,INFO,0.0.0.0/0.0.0.0:2181:NIOServerCnxn,Closed socket connection for client /<*>:<*> (no session established for client),Zookeeper
+,WARN,0.0.0.0/0.0.0.0:2181:NIOServerCnxn,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,Zookeeper
+,INFO,FastLeaderElection,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",Zookeeper
+,INFO,FastLeaderElection,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",Zookeeper
+,INFO,QuorumPeer,tickTime set to <*>,Zookeeper
+,ERROR,52225:LearnerHandler,Unexpected exception causing shutdown while sock still open,Zookeeper
+,INFO,2 cport:-1)::PrepRequestProcessor,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,Zookeeper
+,INFO,FastLeaderElection,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",Zookeeper
+,INFO,QuorumPeerMain,Starting quorum peer,Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:FileTxnSnapLog,Snapshotting: <*> to <*>,Zookeeper
+,INFO,DatadirCleanupManager,autopurge.purgeInterval set to <*>,Zookeeper
+,INFO,59348:LearnerHandler,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,Zookeeper
+,INFO,QuorumPeer,maxSessionTimeout set to <*>,Zookeeper
+,INFO,49928:Leader,Have quorum of supporters; starting up and setting last processed zxid: <*>,Zookeeper
+,INFO,FastLeaderElection,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:FinalRequestProcessor,shutdown of request processor complete,Zookeeper
+,WARN,42241:Leader,First is <*>,Zookeeper
+,INFO,FileSnap,Reading snapshot <*>,Zookeeper
+,INFO,32976:LearnerHandler,Sending DIFF,Zookeeper
+,INFO,0:0:0:0:0:0:0:2181:Learner,Getting a snapshot from leader,Zookeeper
+,INFO,FastLeaderElection,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",Zookeeper
+,INFO,QuorumPeer,minSessionTimeout set to <*>,Zookeeper
